@@ -8,7 +8,7 @@ function LinkGenerator() {
   const [generatedLink, setGeneratedLink] = useState('');
   const [clickCount, setClickCount] = useState(0);
 
-  const ngrokUrl = 'https://7513-2405-201-8018-60b9-b927-e114-bcaf-47b2.ngrok-free.app'; // Your Ngrok URL
+  const ngrokUrl = 'https://7513-2405-201-8018-60b9-b927-e114-bcaf-47b2.ngrok-free.app'; 
 
   const handleGenerateLink = async () => {
     try {
